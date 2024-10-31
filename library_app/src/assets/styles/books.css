@@ -1,0 +1,95 @@
+.books .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+.books{
+    background-image: url(https://cdn.pixabay.com/photo/2024/02/24/20/55/cards-8594729_1280.jpg);
+    background-repeat: no-repeat;
+    block-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.books .card{
+    border: solid 1px black;
+    width: 40vw;
+    margin: 5vh;
+    display: flex;
+    box-shadow: inset 1px 1px 20px rgb(255, 3, 255);
+    border-radius: 10px;
+    background-color: rgba(117, 0, 117, 0.819);
+}
+.books .left{
+    width: 40%;
+    height: 100%;
+}
+.books .right{
+    width: 60%;
+    height: 100%;
+}
+.books .card .left img{
+    margin: 4vh;
+    width: 80%;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+.books .card h4{
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: orange;
+    text-decoration: underline;
+    padding: 10px;
+}
+.books .right table{
+    text-align: center;
+    margin: 10px;
+}
+.books table th{
+    font-style: italic;
+    color: rgb(24, 255, 247);
+    padding: 5px;
+}
+.books .right .title{
+    font-style: italic;
+    color: rgb(250, 255, 99);
+    font-size: 20px;
+    text-decoration: underline;
+}
+.books .right .btn{
+    display: flex;
+    justify-content:space-between;
+    margin: 5vh;
+}
+.books .right button{
+    padding: 10px;
+    width: 9vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    box-shadow:  1px 1px 10px rgb(0, 255, 0);
+    font: inherit;
+    color: rgb(10, 255, 10);
+    font-weight: bold;
+    transition: all .5s;
+}
+.books .right .add{
+    color: yellow;
+}
+.books .right button:hover{
+    transform: scale(1.1);
+    box-shadow: inset 1px 1px 10px rgb(0, 255, 0);
+}
+.books .right .btn .del{
+    box-shadow:  1px 1px 10px red;
+    color: red;
+}
+.books .right .btn .del:hover{
+    box-shadow: inset 1px 1px 10px red;
+}

@@ -1,0 +1,133 @@
+.landingpage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2024/09/25/15/53/japan-9074037_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingpage .container{
+    border: 1px solid black;
+    height: 70vh;
+    width: 30vw;
+    box-shadow:inset 1px 1px 10px black;
+    border-radius: 10px;
+
+}
+.landingpage .container .btn-box{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 5vh auto 2vh;
+    border-radius: 10vh;
+}
+.landingpage .container .btn-box button{
+    height: 100%;
+    width: 50%;
+    border-radius: 10vh;
+    cursor: pointer;
+    border: none;
+    background-color: palevioletred;
+    transition: all .5s;
+}
+.landingpage .container .btn-box button:hover{
+    background-color: pink;
+    box-shadow: inset 1px 1px 10px black;
+}
+.landingpage .container .btn-box .admin-btn{
+    margin: 0;
+}
+.landingpage .container .btn-box .user-btn{
+    margin-left: 50%;
+}
+.landingpage .form-box{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 5px black;
+}
+.landingpage input::placeholder{
+    text-align: center;
+    color: blue;
+   background: none;
+}
+.landingpage input,.login-btn{
+    display: block;
+    margin:2vh auto;
+    min-height: 6vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.landingpage input{
+    width: 80%;
+    padding-left: 10px;
+    background: none;
+}
+.landingpage .login-btn{
+    width: 30%;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: black;
+    transition: all .5s;
+}
+.landingpage .login-btn:hover{
+    background-color: pink;
+    box-shadow: inset 1px 1px 10px black;
+}
+
+.landingpage .text-box{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size:larger;
+    color: palevioletred;
+    text-shadow: 1px 1px 5px blue;
+    margin-bottom: 10px;
+}
+.landingpage .forgetten{
+    text-align: center;
+    margin: 5vh 0;
+}
+.landingpage .forgetten button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+
+}
+.landingpage button:active{
+    transform: scale(0.9);
+}
+/* HOME Page design */
+.homepage {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2019/09/30/14/29/books-4515917_1280.jpg);
+    height: 83.5vh;
+}
+.homepage-header {
+    padding: 100px 20px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 10px blue;
+    width: 80%;
+    margin: auto;
+    margin-top: 20vh;
+    background-color: rgba(255, 255, 255, 0.297);
+}
+.homepage-header h1 {
+    font-size: 40px;
+    color: black;
+} 
+.homepage-header p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+}
