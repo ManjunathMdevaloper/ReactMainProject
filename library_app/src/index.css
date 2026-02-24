@@ -1,5 +1,65 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --bg-color: #f0f2f5;
+  --surface-color: #ffffff;
+  --text-main: #2d3436;
+  --text-dim: #636e72;
+  --primary: #6c5ce7;
+  --secondary: #a29bfe;
+  --accent: #00cec9;
+  --danger: #d63031;
+  --gray-light: #dfe6e9;
+  --gray-medium: #b2bec3;
+  --shadow-subtle: 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --glass-white: rgba(255, 255, 255, 0.8);
+}
+
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-medium);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+/* Common Header Padding */
+.books-page,
+.users-page,
+.admin-home,
+.user-home,
+.add-book-page,
+.add-user-page,
+.read-book-page,
+.contact-page {
+  padding-top: 100px;
 }

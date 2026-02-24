@@ -119,26 +119,6 @@
       ]
     },
     {
-      "id": "14",
-      "title": "Coffeehouse",
-      "isbn": "1884777384",
-      "pageCount": 316,
-      "publishedDate": {
-        "$date": "1997-07-01T00:00:00.000-0700"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/asher.jpg",
-      "shortDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web.",
-      "longDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web. The purpose is to capture the zeitgeist of the web's creative community, and to give readers a chance to enjoy some of the best and most notable original works that have appeared in this form. It showcases over forty individual web writers, among them Joseph Squier, Martha Conway, Jason Snell, David Alexander, Carl Steadman and Walter Miller. The intent is to show the variety and vitality of the web's blossoming literary \"scene,\" and to capture the unique and highly iconoclastic \"personality\" of the web community.",
-      "status": "PUBLISH",
-      "authors": [
-        "Levi Asher",
-        "Christian Crumlish"
-      ],
-      "categories": [
-        "Miscellaneous"
-      ]
-    },
-    {
       "id": "15",
       "title": "Team Foundation Server 2008 in Action",
       "isbn": "1933988592",
@@ -6975,6 +6955,54 @@
       "categories": [
         "Internet"
       ]
+    },
+    {
+      "id": "808",
+      "title": "IKIGAI",
+      "isbn": "432",
+      "pageCount": "555",
+      "thumbnailUrl": "https://99bookstores.com/cdn/shop/files/20391a21-7338-4c78-9dee-2e09e4d6c7ef.jpg?v=1699770152&width=823",
+      "shortDescription": "\"Ikigai: The Japanese Secret to a Long and Happy Life,\" co-authored by Hector Garcia and Francesc Miralles, is a book that explores the concept of \"ikigai,\" a Japanese term that translates to “reason for being.” The book delves into how finding one's ikigai can lead to a longer, more fulfilling life.",
+      "longDescription": "I've ordered 10 other books with this book and got them delivered on time despite of heavy rains and all are in best condition and the quality of paperback and pages and bookmarks are awesome. Thank you 99bookstore!",
+      "status": "Published",
+      "authors": [
+        "𝕀𝕜𝕚𝕘𝕒𝕚"
+      ],
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": "809",
+      "title": "React",
+      "isbn": "87654",
+      "pageCount": "200",
+      "thumbnailUrl": "https://cdn.pixabay.com/photo/2015/09/17/16/40/book-944462_1280.jpg",
+      "shortDescription": "iuytr nbgfdghfhdgd",
+      "longDescription": "qwertyuiopl,mnbvcxzasdfghjkl",
+      "status": "Publish",
+      "authors": [
+        "FaceBook"
+      ],
+      "categories": [
+        "Online"
+      ]
+    },
+    {
+      "id": "810",
+      "title": "My Book",
+      "isbn": "123",
+      "pageCount": "999",
+      "thumbnailUrl": "rampage.png",
+      "shortDescription": "qewrtyuio",
+      "longDescription": "qwertyuioplmnbvcxzasdfghjkl",
+      "status": "publish",
+      "authors": [
+        "Manu"
+      ],
+      "categories": [
+        "online"
+      ]
     }
   ],
   "users": [
@@ -7009,13 +7037,13 @@
       "place": "Kuppam"
     },
     {
-      "id": "f38b",
-      "fname": "Uday",
-      "lname": "Kiran",
-      "phone": "7654321098",
-      "email": "uday@gmail.com",
+      "id": "9276",
+      "fname": "Dev",
+      "lname": "Path",
+      "phone": "9876543210",
+      "email": "user@1222.com",
       "password": "user1234",
-      "dob": "2002-10-20",
+      "dob": "",
       "place": "Bangalore"
     }
   ],
@@ -7042,17 +7070,44 @@
       ]
     },
     {
-      "id": "657",
-      "title": "Grails in Action, Second Edition",
-      "isbn": "1617290963",
-      "pageCount": 0,
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gsmith2.jpg",
-      "status": "MEAP",
+      "id": "61",
+      "title": "Prototype and Scriptaculous in Action",
+      "isbn": "1933988037",
+      "pageCount": 544,
+      "publishedDate": {
+        "$date": "2007-04-01T00:00:00.000-0700"
+      },
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/crane3.jpg",
+      "longDescription": "Common Ajax tasks should be easy, and with Prototype and Scriptaculous they are. Prototype and Scriptaculous are libraries of reusable JavaScript code that simplify Ajax development. Prototype provides helpful methods and objects that extend JavaScript in a safe, consistent way. Its clever Ajax request model simplifies cross-browser development. Scriptaculous, which is based on Prototype, offers handy pre-fabricated widgets for rich UI development.    Prototype and Scriptaculous in Action is a comprehensive, practical guide that walks you feature-by-feature through the two libraries. First, you   ll use Scriptaculous to make easy but powerful UI improvements. Then you   ll dig into Prototype   s elegant and sparse syntax. See how a few characters of Prototype code can save a dozen lines of JavaScript. By applying these techniques, you can concentrate on the function and flow of your application instead of the coding details. This book is written for web developers with a working knowledge of JavaScript.",
+      "status": "PUBLISH",
       "authors": [
-        "Glen Smith",
-        "Peter Ledbrook"
+        "Dave Crane",
+        "Bear Bibeault with Tom Locke"
       ],
-      "categories": []
+      "categories": [
+        "Web Development"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Flex 4 in Action",
+      "isbn": "1935182420",
+      "pageCount": 600,
+      "publishedDate": {
+        "$date": "2010-11-15T00:00:00.000-0800"
+      },
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg",
+      "longDescription": "Using Flex, you can create high-quality, effective, and interactive Rich Internet Applications (RIAs) quickly and easily. Flex removes the complexity barrier from RIA development by offering sophisticated tools and a straightforward programming language so you can focus on what you want to do instead of how to do it. And the new features added in Flex 4 give you an even wider range of options!    Flex 4 in Action is an easy-to-follow, hands-on Flex tutorial that goes beyond feature coverage and helps you put Flex to work in real day-to-day tasks. You'll quickly master the Flex API and learn to apply the techniques that make your Flex applications stand out from the crowd.    The expert authors of Flex 4 in Action have one goal-to help you get down to business with Flex. Fast. Flex 4 in Action filters out the noise and dives into the core topics you need every day. Using numerous easy-to-understand examples, Flex 4 in Action gives you a strong foundation that you can build on as the complexity of your projects increases.    Interesting themes, styles, and skins  It's in there.  Working with databases  You got it.  Interactive forms and validation  You bet.  Charting techniques to help you visualize data  Bam!  And you'll get full coverage of these great Flex 4 upgrades:  Next generation Spark components-New buttons, form inputs, navigation controls and other visual components replace the Flex 3 \"Halo\" versions. Spark components are easier to customize, which makes skinning and theme design much faster  A new \"network monitor\" allows you to see the data communications between a Flex application and a backend server, which helps when trying to debug applications that are communicating to another system/service  Numerous productivity boosting features that speed up the process of creating applications  A faster compiler to take your human-written source code and convert it into a machine-readable format  Built-in support for unit testing allows you to improve the quality of your software, and reduce the time spent in testing",
+      "status": "PUBLISH",
+      "authors": [
+        "Tariq Ahmed",
+        "Dan Orlando",
+        "John C. Bland II",
+        "Joel Hooks"
+      ],
+      "categories": [
+        "Internet"
+      ]
     }
   ]
 }

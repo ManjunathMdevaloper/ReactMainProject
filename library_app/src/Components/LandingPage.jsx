@@ -18,7 +18,7 @@ const LandingPage = () => {
                     {bool ? "Admin Page" : "User Page"}
                 </div>
                 <div className="form-box">
-                    {bool?<Admin/>:<UserLogin/>}
+                    {bool ? <Admin/> : <UserLogin/>}
                 </div>
                 <div className="forgetten">
                     <button>Forgot Password</button>

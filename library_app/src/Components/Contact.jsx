@@ -2,19 +2,18 @@ import React from 'react'
 import '../assets/styles/contact.css'
 const Contact = () => {
   return (
-    <>
-        <br /><br /><br /><br /><br />
-        <div className="contact-form">
-            <div className="header">Contact Form</div>
-            <form>
-                <input type="text" placeholder='Enter Name' required />
-                <input type="email" placeholder='Enter Email Address' required/>
-                <input type="tel" placeholder='Enter Contact Number' required/>
-                <textarea placeholder='Help...?'></textarea>
-                <button>Submit</button>
-            </form>
-        </div>
-    </>
+    <div className="contact-page">
+      <div className="contact-container">
+        <h2>Get in Touch</h2>
+        <form className="contact-form">
+          <input type="text" placeholder='Your Name' required />
+          <input type="email" placeholder='Email Address' required />
+          <input type="tel" placeholder='Contact Number' required />
+          <textarea rows="5" placeholder='How can we help you?'></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
   )
 }
 

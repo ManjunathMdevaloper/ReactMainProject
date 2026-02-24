@@ -1,55 +1,57 @@
-.contact-form form{
-    border: none;
-    border-radius: 10px;
-    background: rgb(255, 225, 255);
-    box-shadow: inset 1px 1px 15px purple;
-    margin: auto;
-    width: 30%;
-    padding: 20px;
+.contact-page {
+    padding: 120px 5% 50px;
+    background: #f8f9fa;
+    min-height: 100vh;
 }
-.contact-form form input,textarea{
-    display: block;
-    margin:15px auto;
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    background: linear-gradient(rgb(255, 125, 255),white);
-    color: purple;
-    box-shadow: 0px 1px 10px purple;
+
+.contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-medium);
 }
-.contact-form form input::placeholder{
-    color: purple;
+
+.contact-container h2 {
     text-align: center;
+    margin-bottom: 30px;
+    color: #2d3436;
 }
-.contact-form form textarea::placeholder{
-    color: purple;
-    text-align: center;
-}   
-.contact-form form button{
-    display: block;
-    margin:15px auto;
-    padding:10px 20px;
-    border: none;
-    outline: none;
-    background: linear-gradient(purple,white);
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #dfe6e9;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px purple;
-    transition: 0.5s;
-    color: rgb(0, 255, 0);
-    font-weight: bold;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #6c5ce7;
+}
+
+.contact-form button {
+    background: #2d3436;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
 }
-.contact-form form button:hover{
-    box-shadow: 1px 1px 10px rgb(22, 255, 22);
-    transform: scale(1.2);
-}
-.contact-form .header{
-    text-align: center;
-    font-weight: bold;
-    color: purple;
-    text-decoration: underline;
-    padding: 10px;
-    font-size: 25px;
-    font-style: italic;
+
+.contact-form button:hover {
+    background: #000;
+    transform: translateY(-2px);
 }
